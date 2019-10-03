@@ -27,6 +27,7 @@ def get_japanese_emoticon(file_path, emoticon)
 
 def get_english_meaning(file_path, emoticon)
   load_library(file_path)
+  result = load_library(file_path)[:get_meaning]
 end
 
 # {"angel"=>["O:)", "☜(⌒▽⌒)☞"],
