@@ -27,6 +27,8 @@ def get_japanese_emoticon(file_path, emoticon)
 def get_english_meaning(file_path, emoticon)
   #binding.pry
  load_library(file_path)
+ end
+ 
  the_meaning = load_library(file_path)[:get_meaning][emoticon]
  
   if the_meaning
