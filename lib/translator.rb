@@ -25,7 +25,7 @@ def get_japanese_emoticon(file_path, emoticon)
 
 
 def get_english_meaning(file_path, emoticon)
-  #binding.pry
+  binding.pry
  load_library(file_path)
  
  end
