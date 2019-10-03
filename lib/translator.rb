@@ -28,7 +28,6 @@ def get_english_meaning(file_path, emoticon)
   #binding.pry
   load_library(file_path)
   result = load_library(file_path)[:get_meaning][emoticon]
-
 end  
 
 # {"angel"=>["O:)", "☜(⌒▽⌒)☞"],
