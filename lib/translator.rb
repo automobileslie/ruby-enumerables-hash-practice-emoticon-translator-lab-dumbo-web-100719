@@ -32,7 +32,7 @@ def get_english_meaning(file_path, emoticon)
   if result
       result
 end
-end
+  end
 
 # {"angel"=>["O:)", "☜(⌒▽⌒)☞"],
 # "angry"=>[">:(", "ヽ(ｏ`皿′ｏ)ﾉ"],
